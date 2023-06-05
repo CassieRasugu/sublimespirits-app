@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Poppins:wght@200;300;400&display=swap');
 :root{
   --red-color: #eb0e33;
-  --pink-color: #c50c5f;
+  --pink-color: #c50c1b;
   --grey-color: #f3f3f3;
   --white-color: #fff;
   --black-color: #010101;;
-  --light-black-color: #717171;
+  --light-black-color: #000000;
   --transition: all 300ms ease-in-out;
 }
 
