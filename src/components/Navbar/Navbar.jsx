@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import logoImg from "../../images/logo2.jpg";
-import {HiOutlineMenuAlt3} from "react-icons/hi";
+import {MdMenu} from "react-icons/md";
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <span className='text-uppercase fw-7 fs-24 ls-1'>sublimespirits</span>
               </Link>
               <button type = "button" className='navbar-toggler-btn' onClick={handleNavbar}>
-            <HiOutlineMenuAlt3 size = {35} style = {{
+            <MdMenu size = {35} style = {{
               color: `${toggleMenu ? "#fff" : "#010101"}`
             }} />
           </button>
@@ -29,10 +29,13 @@ const Navbar = () => {
               <Link to = "home" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Home</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "contact" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact</Link>
+              <Link to = "drinks" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Drinks</Link>
             </li>
             <li className='nav-item'>
               <Link to = "cocktails" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Cocktails</Link>
+            </li>
+            <li className='nav-item'>
+              <Link to = "contact" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact</Link>
             </li>
           </ul>
         </div>
