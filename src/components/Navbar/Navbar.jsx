@@ -35,7 +35,7 @@ const Navbar = () => {
               <Link to = "cocktails" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Cocktails</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "contact" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Contact</Link>
+              <Link to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>About</Link>
             </li>
           </ul>
         </div>

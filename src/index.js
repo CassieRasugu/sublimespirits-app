@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css';
 import Home from './pages/Home/Home';
-import Contact from "./pages/Contact/Contact";
+import About from "./pages/About/About";
 import Drinks from "./pages/Drinks/Drinks";
 import Cocktails from "./pages/Cocktails/Cocktails"
 
@@ -14,9 +14,10 @@ root.render(
 <BrowserRouter>
 <Routes>
         <Route path = "/" element = {<Home />}>
-          <Route path = "contact" element = {<Contact />} />
           <Route path = "drinks" element = {<Drinks />} />
           <Route path = "cocktails" element = {<Cocktails />} />
+        <Route path = "about" element = {<About />} />
+
         </Route>
 </Routes>
 </BrowserRouter>
