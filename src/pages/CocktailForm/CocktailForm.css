@@ -1,0 +1,32 @@
+/* CocktailForm.css */
+.cocktail-form {
+    margin-bottom: 2rem;
+  }
+
+  .cocktail-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .cocktail-form input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .cocktail-form button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.6rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .cocktail-form button:hover {
+    background-color: var(--pink-color);
+  }
