@@ -29,9 +29,6 @@ const Navbar = () => {
               <Link to = "home" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Home</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "drinks" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Drinks</Link>
-            </li>
-            <li className='nav-item'>
               <Link to = "cocktails" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Cocktails</Link>
             </li>
             <li className='nav-item'>

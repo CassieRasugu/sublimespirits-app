@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --red-color: #eb0e33;
+  --pink-color: #c50c1b;
+  --grey-color: #f3f3f3;
+  --white-color: #fff;
+  --black-color: #010101;;
+  --light-black-color: #717171;
+  --transition: all 300ms ease-in-out;
+}
+
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+  color: var(--black-color);
+}
+
+/* Backgrounds */
+.bg-pink {
+  background-color: var(--pink-color);
+}
+
+.bg-red {
+  background-color: var(--red-color);
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+/* Text */
+.text-black {
+  color: var(--black-color);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-purple {
+  color: var(--red-color);
+}
+
+.text-light-black {
+  color: var(--light-black-color);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+/* Font weights */
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-8 {
+  font-weight: 800;
+}
+
+.fw-9 {
+  font-weight: 900;
+}
+
+/* Font sizes */
+.fs-15 {
+  font-size: 1.5rem;
+}
+
+.fs-16 {
+  font-size: 1.6rem;
+}
+
+.fs-17 {
+  font-size: 1.7rem;
+}
+
+.fs-18 {
+  font-size: 1.8rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-22 {
+  font-size: 2.2rem;
+}
+
+.fs-24 {
+  font-size: 2.4rem;
+}
+
+.fs-26 {
+  font-size: 2.6rem;
+}
+
+/* Letter spacing */
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.flex-c {
+  justify-content: center;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Section title */
+.section-title h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 18px 0 24px 0;
+}
+
+/* Cocktail Details */
+.cocktail-details {
+  text-align: center;
+  padding: 2rem;
+}
+
+.cocktail-details h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.cocktail-details img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 5px;
+  margin-bottom: 1.8rem;
+}
+
+.cocktail-details p {
+  margin-bottom: 1.8rem;
+  opacity: 0.8;
+}
+
+.cocktail-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cocktail-details ul {
+  list-style-type: none;
+  margin-bottom: 1.8rem;
+}
+
+.cocktail-details ul li {
+  margin-bottom: 0.5rem;
+}
+
+.cocktail-details a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+

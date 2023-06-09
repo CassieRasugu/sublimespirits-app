@@ -121,7 +121,7 @@ input{
   text-transform: uppercase;
   padding: 18px 0 24px 0;
 }
-/* Add this CSS code to your index.css file */
+
 
 /* Cocktail Cards */
 .cocktail-list {
@@ -162,4 +162,24 @@ input{
   .cocktail-card img {
     margin-left: 0;
   }
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.button-container button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--pink-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button-container button:hover {
+  background-color: var(--red-color);
 }
