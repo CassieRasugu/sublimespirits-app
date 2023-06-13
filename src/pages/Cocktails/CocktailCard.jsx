@@ -17,7 +17,6 @@ function CocktailCard({ cocktail, onDelete }) {
         <h2>{name}</h2>
         <p>{description}</p>
         <div className="cocktail-card-actions">
-          <button className="cocktail-card-edit-button">Edit</button>
           <button className="cocktail-card-delete-button" onClick={handleDeleteClick}>
             Delete
           </button>
